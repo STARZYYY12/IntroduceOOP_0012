@@ -7,4 +7,11 @@ class LuaspersegiPanjang{
         int lebar;
         int luas;
 
-}
+        public:
+            void inputData(){
+                cout << "masukkan panjang= ";
+                cin >> panjang;
+                cout << "masukkan lebar= ";
+                cin >> lebar;
+            }
+           
