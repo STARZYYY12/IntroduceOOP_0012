@@ -5,4 +5,7 @@ class mobil{
     public:
         string nama_Mobil;
         string tipe_Mobil;
+    private:
+        int harga_Mobil;
+
     
