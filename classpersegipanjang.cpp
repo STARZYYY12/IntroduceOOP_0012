@@ -14,4 +14,10 @@ class LuaspersegiPanjang{
                 cout << "masukkan lebar= ";
                 cin >> lebar;
             }
-           
+            void hitungLuas(){
+                luas = panjang * lebar;
+
+            }
+            
+          
+}
