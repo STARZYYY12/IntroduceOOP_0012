@@ -24,3 +24,9 @@ class LuaspersegiPanjang{
             }
 };
 
+int main(){
+    LuaspersegiPanjang selena;
+    selena.inputData();
+    selena.hitungLuas();
+    selena.outputData();
+}
