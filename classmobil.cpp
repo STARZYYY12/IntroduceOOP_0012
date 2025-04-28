@@ -22,3 +22,12 @@ class mobil{
     }
 };
 
+int main(){
+    mobil mazda;
+    mazda.input_Data();
+
+    cout << "nama mobil= " << mazda.nama_Mobil << endl;
+    cout << "tipe mobil= " << mazda.tipe_Mobil << endl;
+    mazda.output_data();
+
+}
